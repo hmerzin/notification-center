@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		F7AD5AF11DF37CA400E832D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5AF01DF37CA400E832D4 /* AppDelegate.swift */; };
 		F7AD5AF31DF37CA400E832D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5AF21DF37CA400E832D4 /* ViewController.swift */; };
-		F7AD5AF61DF37CA400E832D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD5AF41DF37CA400E832D4 /* Main.storyboard */; };
 		F7AD5AF91DF37CA400E832D4 /* nsnotifications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5AF71DF37CA400E832D4 /* nsnotifications.xcdatamodeld */; };
 		F7AD5AFB1DF37CA400E832D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AD5AFA1DF37CA400E832D4 /* Assets.xcassets */; };
 		F7AD5AFE1DF37CA400E832D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD5AFC1DF37CA400E832D4 /* LaunchScreen.storyboard */; };
 		F7AD5B091DF37CA400E832D4 /* nsnotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5B081DF37CA400E832D4 /* nsnotificationsTests.swift */; };
 		F7AD5B141DF37CA400E832D4 /* nsnotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5B131DF37CA400E832D4 /* nsnotificationsUITests.swift */; };
+		F7AD5B221DF3825B00E832D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5B211DF3825B00E832D4 /* Constants.swift */; };
+		F7AD5B261DF3880F00E832D4 /* ObservingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5B251DF3880F00E832D4 /* ObservingViewController.swift */; };
+		F7AD5B281DF38EBA00E832D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD5B271DF38EBA00E832D4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		F7AD5AED1DF37CA400E832D4 /* nsnotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nsnotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AD5AF01DF37CA400E832D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7AD5AF21DF37CA400E832D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7AD5AF51DF37CA400E832D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7AD5AF81DF37CA400E832D4 /* nsnotifications.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nsnotifications.xcdatamodel; sourceTree = "<group>"; };
 		F7AD5AFA1DF37CA400E832D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7AD5AFD1DF37CA400E832D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		F7AD5B0F1DF37CA400E832D4 /* nsnotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nsnotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AD5B131DF37CA400E832D4 /* nsnotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nsnotificationsUITests.swift; sourceTree = "<group>"; };
 		F7AD5B151DF37CA400E832D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AD5B211DF3825B00E832D4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7AD5B251DF3880F00E832D4 /* ObservingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObservingViewController.swift; path = ../ObservingViewController.swift; sourceTree = "<group>"; };
+		F7AD5B271DF38EBA00E832D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		F7AD5AEF1DF37CA400E832D4 /* nsnotifications */ = {
 			isa = PBXGroup;
 			children = (
+				F7AD5B251DF3880F00E832D4 /* ObservingViewController.swift */,
 				F7AD5AF01DF37CA400E832D4 /* AppDelegate.swift */,
 				F7AD5AF21DF37CA400E832D4 /* ViewController.swift */,
-				F7AD5AF41DF37CA400E832D4 /* Main.storyboard */,
 				F7AD5AFA1DF37CA400E832D4 /* Assets.xcassets */,
 				F7AD5AFC1DF37CA400E832D4 /* LaunchScreen.storyboard */,
 				F7AD5AFF1DF37CA400E832D4 /* Info.plist */,
 				F7AD5AF71DF37CA400E832D4 /* nsnotifications.xcdatamodeld */,
+				F7AD5B211DF3825B00E832D4 /* Constants.swift */,
+				F7AD5B271DF38EBA00E832D4 /* Main.storyboard */,
 			);
 			path = nsnotifications;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 				TargetAttributes = {
 					F7AD5AEC1DF37CA400E832D4 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8UR7G64J2J;
 						ProvisioningStyle = Automatic;
 					};
 					F7AD5B031DF37CA400E832D4 = {
@@ -236,8 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AD5AFE1DF37CA400E832D4 /* LaunchScreen.storyboard in Resources */,
+				F7AD5B281DF38EBA00E832D4 /* Main.storyboard in Resources */,
 				F7AD5AFB1DF37CA400E832D4 /* Assets.xcassets in Resources */,
-				F7AD5AF61DF37CA400E832D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +271,9 @@
 			files = (
 				F7AD5AF91DF37CA400E832D4 /* nsnotifications.xcdatamodeld in Sources */,
 				F7AD5AF31DF37CA400E832D4 /* ViewController.swift in Sources */,
+				F7AD5B261DF3880F00E832D4 /* ObservingViewController.swift in Sources */,
 				F7AD5AF11DF37CA400E832D4 /* AppDelegate.swift in Sources */,
+				F7AD5B221DF3825B00E832D4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7AD5AF41DF37CA400E832D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7AD5AF51DF37CA400E832D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7AD5AFC1DF37CA400E832D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8UR7G64J2J;
 				INFOPLIST_FILE = nsnotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = harry.nsnotifications;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8UR7G64J2J;
 				INFOPLIST_FILE = nsnotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = harry.nsnotifications;
